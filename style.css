@@ -12,6 +12,11 @@
 	margin: 0;
 }
 
+@font-face {
+	font-family: pixles;
+	src: url(https://fonts.gstatic.com/s/loveyalikeasister/v14/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL9Xxd.woff2) format('woff2');
+}
+
 /* ------------------------------------------------------------------------------------
   
   Envelope styling
@@ -313,12 +318,6 @@
 .modal-content::-webkit-scrollbar {
 	display: none;
 }
-
-@font-face {
-	font-family: pixles;
-	src: url(https://fonts.gstatic.com/s/loveyalikeasister/v14/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL9Xxd.woff2) format('woff2');
-}
-
 
 /* ------------------------------------------------------------------------------------
   
