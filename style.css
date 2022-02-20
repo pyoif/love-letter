@@ -17,6 +17,24 @@
 	src: url(https://fonts.gstatic.com/s/loveyalikeasister/v14/R70EjzUBlOqPeouhFDfR80-0FhOqJubN-BeL9Xxd.woff2) format('woff2');
 }
 
+body {
+	display: flex;
+	overflow: hidden;
+	font-family: pixles;
+	font-size: 15px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin: 0;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	background-color: #fae1dd;
+}
+
+
 /* ------------------------------------------------------------------------------------
   
   Envelope styling
@@ -324,23 +342,6 @@
   Game styling
   
   --------------------------------------------------------------------------------------- */
-
-body {
-	display: flex;
-	overflow: hidden;
-	font-family: pixles;
-	font-size: 15px;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
-	margin: 0;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-	width: 100%;
-	background-color: #fae1dd;
-}
 
 body .game {
 	display: flex;
